@@ -1,4 +1,4 @@
-package dsa.search.binary;
+package dsa.search.binary.code;
 
 public class BinarySearchMain {
 
