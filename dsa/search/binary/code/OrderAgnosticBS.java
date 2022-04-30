@@ -9,7 +9,12 @@ public class OrderAgnosticBS {
 		int ans = orederAgnosticBS(arr, target);
 		System.out.println(ans);
 	}
-	
+	/**
+	 * A function to do binary search if sorting order of Array is not knwon 
+	 * @param arr Ascending/Descending sorted Array
+	 * @param target 
+	 * @return Return the index of target element . Return -1 if the target element is not found
+	 */
 	static int orederAgnosticBS(int[] arr, int target) {
 		int start = 0;
 		int end = arr.length - 1;
