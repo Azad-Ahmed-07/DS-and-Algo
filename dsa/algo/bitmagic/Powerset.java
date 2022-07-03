@@ -27,7 +27,6 @@ public class Powerset {
     public static void main(String args[]){
         char[] charArr = "abc".toCharArray();
         PrintPowerSet(charArr, charArr.length);
-        
     }
 
     public static void PrintPowerSet(char[] set, int setSize){
